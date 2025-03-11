@@ -4,7 +4,7 @@ import requests
 from io import BytesIO
 
 # GitHub repository where images are stored (raw URL format)
-GITHUB_BASE_URL = "https://raw.githubusercontent.com/FC-Versailles/player/main/Freddy/"
+GITHUB_BASE_URL = "https://raw.githubusercontent.com/FC-Versailles/player/blob/main/Freddy/"
 
 # Title
 st.title("Freddy Mbemba - 22y (FR)")
