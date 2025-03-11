@@ -126,10 +126,21 @@ message = "Hello, I am interested in Freddy Mbemba. Can we discuss further?"
 # Encode message for URL
 encoded_message = urllib.parse.quote(message)
 
-# WhatsApp URL
+# Construct the WhatsApp URL
 whatsapp_url = f"https://api.whatsapp.com/send?phone={whatsapp_number}&text={encoded_message}"
 
-# Button to open WhatsApp chat
-if st.button("📲 Contact via WhatsApp"):
-    st.markdown(f'<a href="{whatsapp_url}" target="_blank">Click here to contact</a>', unsafe_allow_html=True)
+# JavaScript redirection to WhatsApp
+st.markdown(
+    f"""
+    <script>
+        function openWhatsApp() {{
+            window.open("{whatsapp_url}", "_blank");
+        }}
+    </script>
+    """,
+    unsafe_allow_html=True
+)
 
+# Button that directly opens WhatsApp
+if st.button("📲 Contact via WhatsApp"):
+    st.markdown('<script>openWhatsApp();</script>', unsafe_allow_html=True)
