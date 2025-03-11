@@ -134,5 +134,22 @@ with st.expander("😊 Happiness & Determination"):
 
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
-
+st.markdown("""
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+    <div class="footer">
+        <p>⚽ Developed by <strong>Mathieu Feigean</strong> - Head of Football Development</p>
+    </div>
+    """, unsafe_allow_html=True)
 
