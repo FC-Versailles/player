@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+mplsoccer
+tqdm
+scikit-learn
+cmasher
+pywaffle
+highlight_text
+pillow
+urllib3
