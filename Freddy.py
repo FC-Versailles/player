@@ -24,15 +24,19 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 st.header("🔍 Key Insights")
 st.markdown(
     """
-    **Freddy Mbemba is an explosive winger or direct attacking forward, based on his statistical profile.**
+    **Freddy Mbemba is an explosive forward player. His football profile and personality are two strong indicators that suggest Freddy will reach the highest level. **
     
-    - **Dribbling & Carrying:** Excellent (P86) 🏃‍♂️💨
-    - **Touches in the Box:** Strong involvement (P63) ⚽
-    - **Shot Efficiency:** Decent conversion (P70) 🎯
-    - **Crossing & Playmaking:** Needs improvement (P69) 🎯
-    - **Shooting Consistency:** Could improve (P46-P55) 🔄
+    **Personality** 🏃‍♂️💨
+    - Strong determination to reach high level 
+    - Huge focus on his career and his individual development 
+
     
-    **Best suited for:** Transition-based or counter-attacking teams 🏹⚡
+    **Football Profile**  🎯
+    - Dribbling & Carrying: Excellent (P86) 
+    - Shot Efficiency: Post-shot xG and touch in the box 
+    - Speed & explosiveness : Strong physical habilities
+
+    **Best suited for:** xxxx 🏹⚡
     """
 )
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
@@ -42,19 +46,25 @@ with st.expander("👤 Player Career | Young player ready for a new step"):
     image = load_image_from_github("fiche.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy has progressed rapidly through divisions, demonstrating strong development potential.")
+    st.write("Freddy has progressed rapidly through divisions, demonstrating strong development potential.Freddy is a young talented forward player, right footed. His career path illustrate the potential and the development of Freddy. In 21/22 he played in 6th division, 22/23 he was transfered in USL Dunkerque in the 3rd Division. 23/24 USL Dunkerque jump in 2nd division and Freddy was in loan to Nimes in 3rd division. Freddy is ready to take a new step in his career")
 
-with st.expander("📈 Performance Progression"):
-    image = load_image_from_github("progression.png")
+with st.expander("📍 Position Played | Left Winger & Versatile Forward"):
+    image = load_image_from_github("position.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy's xG-assisted and goal contributions show his growth as an attacking force.")
+    st.write("Freddy primarily plays as a left winger but is also comfortable as a second striker or right winger. Freddy is a complete forward player.")
 
-with st.expander("📊 Player Comparison | Ernest Nuamah"):
-    image = load_image_from_github("radar.png")
+with st.expander("⏳ Minutes played | A key player - 23/24 starting lineups"):
+    image = load_image_from_github("minutes_played.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Advanced radar stats highlighting Freddy's strengths and areas for improvement.")
+    st.write("This season Freddy is a key player for the team. Freddy took 22/23 lineups and more than 90% of the available minutes. For the first time of his career he took 2 yellows cards that bring to a missing match.")
+
+with st.expander("🛡 Player Profile | Wide Threat - Explosive & Dribbler"):
+    image = load_image_from_github("leaugue_Comparison.png")
+    if image:
+        st.image(image, use_container_width=True)
+    st.write("Freddy excels in high-intensity attacking scenarios, with great dribbling skills and goal instincts. Freddy Mbemba is a high-intensity, direct winger with strong dribbling and goal-scoring instincts. His ability to take on defenders and progress the ball makes him an exciting attacking asset, but improving his crossing precision and playmaking could make him a more complete forward. 🚀")
 
 with st.expander("⚽ Shot Map | Efficiency"):
     image = load_image_from_github("Shot_map.png")
@@ -62,29 +72,30 @@ with st.expander("⚽ Shot Map | Efficiency"):
         st.image(image, use_container_width=True)
     st.write("Freddy is an efficient goal scorer with a strong xG conversion rate.")
 
-with st.expander("📍 Position Played | Left Winger & Versatile Forward"):
-    image = load_image_from_github("position.png")
+with st.expander("📈 Performance Progression | Individual Development"):
+    image = load_image_from_github("progression.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy primarily plays as a left winger but is also comfortable as a second striker or right winger.")
+    st.write("Freddy Mbemba has transitioned into a more effective goal-scorer and playmaker (xG assisted), as seen by his higher xG assisted and goal contribution stats. However, there is a slight trade-off in his dribbling and ball progression, suggesting either a tactical shift (e.g., playing higher up the pitch) or defensive adaptation from opponents.")
 
-with st.expander("🛡 Player Profile | Wide Threat - Explosive & Dribbler"):
-    image = load_image_from_github("leaugue_Comparison.png")
+with st.expander("📊 Player Comparison | Ernest Nuamah (Ligue 1)"):
+    image = load_image_from_github("radar.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy excels in high-intensity attacking scenarios, with great dribbling skills and goal instincts.")
+    st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
+
 
 with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
     image = load_image_from_github("physique.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy covers significant distance per game (10,845m) and reaches a top speed of 32.5 km/h.")
+    st.write("Endurance: Covers significant distance per game (10,845m), showcasing strong stamina. Speed: Reaches a top speed of 32.5 km/h, indicating strong sprint capabilities. In term of intensity: High acceleration/deceleration numbers (35 accelerations, 38 decelerations per game), proving his ability to make explosive movements and quick changes of direction. Sprint Efforts: 27 sprints per game, maintaining a good balance between high-intensity bursts and recovery.")
 
 with st.expander("🤕 Injury History"):
     image = load_image_from_github("injuries.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy has maintained excellent availability with no major injuries this season.")
+    st.write("Freddy has maintained excellent availability with no major injuries this season. Freddy is a robust player. He did not get any injury this year that bring 100% of availabity for training and match. He takes care about his body with some session with physio (massage & cares).")
 
 with st.expander("⚖️ Weight Evolution"):
     image = load_image_from_github("poids.png")
@@ -96,7 +107,7 @@ with st.expander("😊 Happiness & Determination"):
     image = load_image_from_github("Happiness.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy is highly motivated and dedicated to his football journey.")
+    st.write("Freddy is highly motivated and dedicated to his football journey. His motivation runs deep, rooted in his childhood passion, with a constant desire to progress and reach the highest levels of football.")
 
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
-st.success("✅ Updated player profile with structured insights and better mobile-friendly display!")
+
