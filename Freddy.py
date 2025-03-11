@@ -44,6 +44,24 @@ st.markdown(
     **Best suited for:** xxxx 🏹⚡
     """
 )
+
+# Define the WhatsApp number (include country code, no '+' sign)
+whatsapp_number = "33771730001"  # Example: +33 for France
+
+# Message to send
+message = "Hello, I am interested in Freddy Mbemba. Can we discuss further?"
+
+# Encode message for URL
+encoded_message = urllib.parse.quote(message)
+
+# WhatsApp URL
+whatsapp_url = f"https://api.whatsapp.com/send?phone={whatsapp_number}&text={encoded_message}"
+
+# Button to open WhatsApp chat
+if st.button("📲 Contact Sport Director"):
+    st.markdown(f'<a href="{whatsapp_url}" target="_blank">Send a whatsapp</a>', unsafe_allow_html=True)
+
+
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Vertical Display with Expanders
@@ -117,30 +135,4 @@ with st.expander("😊 Happiness & Determination"):
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 
-# Define the WhatsApp number (include country code, no '+' sign)
-whatsapp_number = "41786058236"  # Example: +33 for France
 
-# Message to send
-message = "Hello, I am interested in Freddy Mbemba. Can we discuss further?"
-
-# Encode message for URL
-encoded_message = urllib.parse.quote(message)
-
-# Construct the WhatsApp URL
-whatsapp_url = f"https://api.whatsapp.com/send?phone={whatsapp_number}&text={encoded_message}"
-
-# JavaScript redirection to WhatsApp
-st.markdown(
-    f"""
-    <script>
-        function openWhatsApp() {{
-            window.open("{whatsapp_url}", "_blank");
-        }}
-    </script>
-    """,
-    unsafe_allow_html=True
-)
-
-# Button that directly opens WhatsApp
-if st.button("📲 Contact via WhatsApp"):
-    st.markdown('<script>openWhatsApp();</script>', unsafe_allow_html=True)
