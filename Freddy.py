@@ -24,7 +24,7 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 st.header("🔍 Key Insights")
 st.markdown(
     """
-    **Freddy Mbemba is an explosive forward player. His football profile and personality are two strong indicators that suggest Freddy will reach the highest level.**
+    **Freddy Mbemba is an talented forward player with lot of potential. His football profile and personality are two strong indicators that suggest Freddy will reach the highest level.**
     
     **Personality & mentality** 🏃‍♂️💨
     - Strong determination to reach high level 
