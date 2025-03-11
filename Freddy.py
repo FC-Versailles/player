@@ -149,7 +149,7 @@ st.markdown("""
         }
     </style>
     <div class="footer">
-        <p>⚽ by <strong>M. Feigean</strong> - Football Development</p>
+        <p><strong>M.Feigean</strong> - Football Development</p>
     </div>
     """, unsafe_allow_html=True)
 
