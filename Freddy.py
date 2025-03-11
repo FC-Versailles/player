@@ -18,7 +18,7 @@ def load_image_from_github(filename):
 
 image = load_image_from_github("pic.png")
 if image:
-    st.image(image, width=50)
+    st.image(image, width=100)
 # Title & Player Overview
 st.title("Freddy Mbemba - 22y (FR)")
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
