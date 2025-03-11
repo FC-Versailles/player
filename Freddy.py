@@ -2,6 +2,8 @@ import streamlit as st
 from PIL import Image
 import requests
 from io import BytesIO
+import urllib.parse
+
 
 # GitHub repository where images are stored (raw URL format)
 GITHUB_BASE_URL = "https://raw.githubusercontent.com/FC-Versailles/player/main/"
@@ -113,4 +115,21 @@ with st.expander("😊 Happiness & Determination"):
     st.write("Freddy is highly motivated and dedicated to his football journey. His motivation runs deep, rooted in his childhood passion, with a constant desire to progress and reach the highest levels of football.")
 
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
+
+
+# Define the WhatsApp number (include country code, no '+' sign)
+whatsapp_number = "41786058236"  # Example: +33 for France
+
+# Message to send
+message = "Hello, I am interested in Freddy Mbemba. Can we discuss further?"
+
+# Encode message for URL
+encoded_message = urllib.parse.quote(message)
+
+# WhatsApp URL
+whatsapp_url = f"https://api.whatsapp.com/send?phone={whatsapp_number}&text={encoded_message}"
+
+# Button to open WhatsApp chat
+if st.button("📲 Contact via WhatsApp"):
+    st.markdown(f'<a href="{whatsapp_url}" target="_blank">Click here to contact</a>', unsafe_allow_html=True)
 
