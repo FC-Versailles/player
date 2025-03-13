@@ -101,7 +101,7 @@ with st.expander("📈 Performance Progression | Individual Development"):
         st.image(image, use_container_width=True)
     st.write("Freddy Mbemba has transitioned into a more effective goal-scorer and playmaker (xG assisted), as seen by his higher xG assisted and goal contribution stats. However, there is a slight trade-off in his dribbling and ball progression, suggesting either a tactical shift (e.g., playing higher up the pitch) or defensive adaptation from opponents.")
 
-with st.expander("📊 Player Comparison | Ernest Nuamah (Ligue 1)"):
+with st.expander("👥 Player Comparison | Ernest Nuamah (Ligue 1)"):
     image = load_image_from_github("radar.png")
     if image:
         st.image(image, use_container_width=True)
