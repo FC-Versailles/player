@@ -24,7 +24,7 @@ if image:
 # Title & Player Overview
 st.title("Freddy Mbemba - 22 (RDC)")
 # Button linking to Transfermarkt profile
-st.link_button("View Profile on Transfermarkt", "https://www.transfermarkt.fr/freddy-mbemba/profil/spieler/983364")
+st.link_button("Transfermarkt Profile", "https://www.transfermarkt.fr/freddy-mbemba/profil/spieler/983364")
 
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
