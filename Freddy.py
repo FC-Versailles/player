@@ -41,7 +41,7 @@ st.markdown(
     - Shot Efficiency: Post-shot xG and touch in the box 
     - Speed & explosiveness : Strong physical habilities
 
-    **Best suited for:** xxxx 🏹⚡
+    **Best suited for:** Freddy can help teams that play the offensive transition or direct play (speed, run behind) and also in positonnal attack (1v1 as winger or second striker) 🏹⚡
     """
 )
 
