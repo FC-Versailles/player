@@ -22,7 +22,7 @@ image = load_image_from_github("pic.png")
 if image:
     st.image(image, width=100)
 # Title & Player Overview
-st.title("Freddy Mbemba - 22y (COD)")
+st.title("Freddy Mbemba - 22 (RDC)")
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Key Insights
@@ -114,7 +114,7 @@ with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"
         st.image(image, use_container_width=True)
     st.write("Endurance: Covers significant distance per game (10,845m), showcasing strong stamina. Speed: Reaches a top speed of 32.5 km/h, indicating strong sprint capabilities. In term of intensity: High acceleration/deceleration numbers (35 accelerations, 38 decelerations per game), proving his ability to make explosive movements and quick changes of direction. Sprint Efforts: 27 sprints per game, maintaining a good balance between high-intensity bursts and recovery.")
 
-with st.expander("🤕 Injury History"):
+with st.expander("🤕 Injury History | Robust Player"):
     image = load_image_from_github("injuries.png")
     if image:
         st.image(image, use_container_width=True)
@@ -124,9 +124,9 @@ with st.expander("⚖️ Weight Evolution"):
     image = load_image_from_github("poids.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Monitoring body composition is key to performance optimization.")
+    st.write("Monitoring body composition is key to performance optimization. He is currently working with a nutritionist")
 
-with st.expander("😊 Happiness & Determination"):
+with st.expander("🔥 Personnality & Motivation | high self determination"):
     image = load_image_from_github("Happiness.png")
     if image:
         st.image(image, use_container_width=True)
