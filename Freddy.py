@@ -132,6 +132,17 @@ with st.expander("😊 Happiness & Determination"):
         st.image(image, use_container_width=True)
     st.write("Freddy is highly motivated and dedicated to his football journey. His motivation runs deep, rooted in his childhood passion, with a constant desire to progress and reach the highest levels of football.")
 
+with st.expander("📊 Game Report"):
+    image = load_image_from_github("game_report.png")
+    if image:
+        st.image(image, use_container_width=True)
+    st.write("Example of Game report, please contact Mathieu Feigean for more explanation or request.")
+
+
+
+
+
+
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 st.markdown("""
