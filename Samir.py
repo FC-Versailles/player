@@ -195,7 +195,47 @@ with st.expander("👥 Player Comparison | Timothy Weah (Ligue 1)"):
     image = load_image_from_github("radar.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
+    st.write(
+    """
+    **Comparison: Samir Ben Brahim vs Timothy Weah highlights two different interpretations of a modern wide player: a pure progressor vs a vertical runner.**
+    
+    **Common points** ⚖️
+    - Both profiles generate value through **ball carrying (Dribble & Carry OBV ~P90)**  
+    - Similar ability to **progress the ball and create offensive momentum**  
+    - Capable of playing in **wide roles or wing-back systems**  
+
+    **Key differences** 🔍
+    - **Samir Ben Brahim**:
+        • Elite **dribbling volume (P91)** → strong 1v1 eliminator  
+        • Higher **defensive involvement (P70 / P75)** → more complete two-way profile  
+        • Lower **pass contribution (Pass OBV P4)** → less involved in circulation  
+        • Profile = **creator through imbalance and short-distance progression**
+    
+    - **Timothy Weah**:
+        • Higher **deep progressions & carries volume (P71)** → more vertical runner  
+        • Lower **dribbling frequency (P55)** → less 1v1 oriented  
+        • More **efficient in structured progression and transitions**  
+        • Profile = **explosive runner attacking space and depth**
+    
+    **Interpretation** 🧠
+    - Samir = **ball-dominant winger**, creates advantage through dribbling and tight-space actions  
+    - Weah = **off-ball threat**, creates advantage through runs, speed, and verticality  
+
+    **Level gap insight** 📊
+    - Despite playing in a lower league, Samir matches or exceeds Weah in:
+        • Dribbling impact  
+        • Carry value (OBV)  
+    - The main gap lies in:
+        • Volume at high intensity  
+        • Ability to repeat actions in higher-tempo environments (Ligue 1)  
+
+    **Projection** 🚀
+    - Samir shows traits of a **Ligue 2 / Ligue 1 rotational winger**, especially in teams needing 1v1 creators  
+    - To reach Weah’s level, key step is improving:
+        • **off-ball running and depth threat**  
+        • **consistency of impact at higher speed**
+    """
+)
 
 
 # with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
