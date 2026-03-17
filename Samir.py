@@ -238,11 +238,17 @@ with st.expander("👥 Player Comparison | Timothy Weah (Ligue 1)"):
 )
 
 
-# with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
-#     image = load_image_from_github("physique.png")
-#     if image:
-#         st.image(image, use_container_width=True)
-#     st.write("Endurance: Covers significant distance per game (10,845m), showcasing strong stamina. Speed: Reaches a top speed of 32.5 km/h, indicating strong sprint capabilities. In term of intensity: High acceleration/deceleration numbers (35 accelerations, 38 decelerations per game), proving his ability to make explosive movements and quick changes of direction. Sprint Efforts: 27 sprints per game, maintaining a good balance between high-intensity bursts and recovery.")
+with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
+     image = load_image_from_github("physique.png")
+     if image:
+         st.image(image, use_container_width=True)
+     st.write(
+        "Samir Ben Brahim shows a strong physical profile aligned with an explosive wide player. "
+        "He consistently reaches high maximum speeds (~32–34 km/h), confirming elite sprint capacity with low variability. "
+        "His high-speed running (>25 km/h) highlights his ability to repeat intense efforts and impact transitions. "
+        "Overall running intensity (m/min) remains stable, reflecting a solid aerobic base and match consistency. "
+        "The main area for improvement is increasing the consistency of high-intensity volumes across games to sustain impact at a higher level."
+     )
 
 # with st.expander("🤕 Injury History | Robust Player"):
 #     image = load_image_from_github("injuries.png")
